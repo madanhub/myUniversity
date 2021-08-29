@@ -1,0 +1,32 @@
+*{
+    margin:0px;
+    padding: 0px
+}
+
+.ContactTitle{
+    font-size: 40px;
+    padding-top: 30px;
+    text-align: center;
+    color: black;
+}
+.ContactSubTitle{
+    font-size: 20px;
+    padding-top: 20px;
+    text-align: center;
+    color:black;
+}
+
+#contactTitle{
+    font-size: 22px; 
+    padding-top: 20px;
+    text-align: center;
+    color: black;
+}
+
+#contactBody{
+    font-size: 15px;
+    padding-top: 20px;
+    text-align: center;
+    color: black;
+}
+

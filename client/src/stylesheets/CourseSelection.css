@@ -1,0 +1,347 @@
+/*Author - Sowmya Busanagari*/
+.gradingTable
+{
+  border: 1px solid black;
+  width: 100%;
+  table-layout: fixed;
+  
+}
+
+tr, td, th 
+{
+  border: 1px solid black;
+  text-size-adjust: 3000pt;
+  text-align: center;
+  height: 50px;
+  color:black;
+  width: 48%;
+  table-layout: fixed;
+}
+
+thead 
+{
+  border: 1px solid black;
+  text-size-adjust: 100pt;
+  text-align:center;
+  height: 50px;
+}
+
+a 
+{
+  color: black;
+}
+a:hover
+{
+  color: black;
+}
+
+
+.column 
+{
+  float: left;
+  width: 30%;
+  padding: 0 10px;
+}
+  
+.row 
+{
+  margin: 0 -5px;
+  top:"200px",
+}
+
+.row:after 
+{
+  content: "";
+  display: table;
+  clear: both;
+}
+.course-Home 
+{ 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  text-align: center;
+  background-color: #f1f1f1;
+  top: 15px;
+  left: 30px;
+}
+.course-Home:hover
+{
+  animation: swing ease-in-out 1s infinite alternate;
+  transform-origin: center -20px;
+  float:left;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+@keyframes swing {
+  0% { transform: rotate(3deg); }
+  100% { transform: rotate(-3deg); }
+}
+
+@media screen and (max-width: 580px)
+{
+  aside
+  {
+    width:30%;
+    display: block;
+  }
+
+}
+  
+ @media screen and (max-width: 280px) 
+ {
+    .column 
+    {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+    .row 
+    {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+
+  @media screen and (max-width: 1080px) 
+  {
+     .row 
+     {
+       width: 100%;
+       display: block;
+       margin-bottom: 20px;
+     }
+   } 
+
+.back
+{
+  background-color: grey; 
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin-top: 380px;
+  margin-left: 980px;
+}
+
+.forms 
+{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.forms label 
+{
+  margin: 5px 10px 5px 0;
+  color: black;
+  float: left;
+}
+
+.forms input 
+{
+  float: right;
+  margin: 7px 10px 5px 2px;
+  padding: 10px;
+  
+  border: 1px solid black;
+}
+
+.errorMsg 
+{
+  color: #cc0000;
+  margin-bottom: 12px; 
+}
+
+.forms 
+{
+  
+
+  border-color: #021407;
+  font-weight: bold;
+  padding: 12px 15px;
+  color: black;
+  margin-left: 1050px;
+  margin-top: 20px;
+}
+.submitButton{
+ 
+  border-color: #021407;
+  font-weight: bold;
+  padding: 12px 15px;
+  color: black;
+  margin-left: 1050px;
+}
+
+@media (max-width: 1356px) 
+{
+  .forms input 
+  {
+    margin: 10px 0;
+  }
+  .forms 
+  {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .forms 
+  {
+    flex-direction: column;
+    align-items: stretch;
+    margin: 10px 0;
+  }
+}
+
+.heading
+{
+
+  border-color: black;
+  border-radius: 10px;
+
+  text-align: center;
+  width:99%
+  
+}
+
+.h2{
+  color: black;
+  text-align: center;
+}
+aside
+{
+  width:15%;
+  background-color:lightgray;
+  height:100%;
+  border:1px solid black;
+  position:absolute;
+  top:0;
+        
+}
+.main
+{
+  width:100%;
+  height:100%;
+   background-size: cover;
+  position:absolute;
+  top:0;
+}
+
+@media screen and (min-width:2px){
+  .main
+  {
+    width:100%;
+    height:100%;
+    
+  }
+  
+}
+
+
+.side
+{
+  width:76%;
+  height:70%;
+  
+  position:absolute;
+  top:60px;
+  left:250px;
+}
+
+
+
+article
+{
+  width:99%;
+  height:70%;
+  border:1px solid white;
+ 
+  border-radius: 10px;
+  position:absolute;
+  top:60px;
+  left:5px 
+}
+
+.formBlock
+{
+  width:99%;
+  height:16%;
+  border:1px solid black;
+  background-color:lightgrey;
+  position:absolute;
+  top:270px;
+  left:5px;  
+}
+
+.submissionList
+{
+  width:85%;
+  height:50%;
+  
+  position:absolute;
+  top:80px;
+  left:50px;  
+}
+
+
+.add{
+  background-color: #4CAF50; 
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+
+}
+
+.tableHeader{
+  background-color: gray;
+  border: 1px solid black;
+}
+
+.grade{
+  position: relative;
+  top: 1px;
+  height: 30px;
+  width: 50px;
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 5px 3px;
+  left: 1px;
+
+  float:center;
+  text-align: center;
+  text-decoration: none;
+
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.gradeSide {
+  background-color: #f5f6f8;
+  height: 100%;
+  width: 80%;
+  float: right;
+}
+.gradeList {
+  margin-top: 5%;
+} 
+
+.feedback{
+  text-align: center;
+  margin-top: 200px;
+  font-weight:900;
+  font-size: larger;
+}

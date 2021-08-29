@@ -1,0 +1,97 @@
+ /* Author -Sri Sai Bhargav Nuthakki */
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+
+
+.ProfileInfoTable{
+   
+    position: absolute;
+    top: 25%;
+    right: 20%;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    height: 350px;
+    width:55%;
+    background-color: transparent;
+    
+}
+
+#ProfileInfoTableName{
+    
+    position: relative;
+    bottom: 110%;
+    left: 50%;
+    transform: translate(-10%,-100%);
+    margin-bottom: 20px;
+    color: black;
+    font-size: 35px;
+    font-weight: 500;
+    padding-bottom: 20px;
+    text-shadow: 2px 2px black;
+}
+
+.FirstName{
+    border: none;
+}
+.LastName{
+    border: none;
+}
+.Email{
+    border: none;
+}
+.Password{
+    border:none;
+}
+.MobileNumber{
+    border:none;
+}
+
+
+#feildName{
+    text-align: center;
+    border: none;
+}
+.feildAlign1{
+    text-align: left;
+    padding-left: 20px;
+    border-bottom: 2px solid black;
+
+}
+#feildValue{
+    background: transparent;
+    border: none;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid #000000;
+    margin: 5px;
+    cursor: pointer;
+    text-align: left;
+}
+#profileInfoEdit{
+
+    background-color:black ;
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    background: transparent;
+    border: 2px solid #000000; 
+    cursor: pointer;
+    margin-top: 50px;
+    margin-left: 400px;
+    background-color:black ;
+    color: white;
+    font-size: 20px;
+    padding: 6px;
+    border-radius: 7px;
+}
+@media screen  and (min-width:500px) and (max-width:1000px){
+    
+}
+
+

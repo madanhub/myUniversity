@@ -1,0 +1,36 @@
+/*Author - Sowmya Busanagari*/
+.cancelButton {
+    float: center;
+    margin-left: 30%;
+    margin-top: 2%;
+    background-color: red;
+}
+
+.content {
+    position: absolute;
+    left: 250px;
+    top: 60px;
+    height: 100%;
+    width: 80%;
+    float: right;
+}
+.survey {
+    text-align: center;
+}
+
+.course-applied {
+    width: 15rem;
+    height: 18rem;
+    margin: 3%;
+    float: left;
+}
+
+.apply {
+    float: right;
+    margin-right: 2%;
+    margin-top: 1%;
+    background-color: green;
+    padding: 5px 1px;
+
+}
+

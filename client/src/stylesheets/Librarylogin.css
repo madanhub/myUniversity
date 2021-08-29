@@ -1,0 +1,37 @@
+.login-content {
+    position: absolute;
+    
+    left: 600px;
+    top: 300px;
+}
+.overlay{ 
+    height:800px;
+    width: 100%;
+    position: relative;
+
+    /* background-image: url("F:\WEBDEVELOPMENT5709\Projectfinal\Group_17\client\src\component\Images\uni2.jpg"); */
+
+    background-repeat: no-repeat;
+    background-size:cover;
+    object-fit: fill;
+    filter: brightness(90%); 
+    opacity: 0.5;
+
+}
+.Email{
+    text-align: left;
+    border: none;
+}
+.submit-content{
+    left: 900px;
+}
+.button-content {
+    background-color: #000000;
+    color: #FFFFFF;
+    left: 200px;
+    float: right;
+    padding: 0px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+  }

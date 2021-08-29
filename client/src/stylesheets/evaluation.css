@@ -1,0 +1,33 @@
+
+.evaluation-title {
+    color: black;   
+    text-align: center;
+}
+
+/* add this to my css */
+.evaluation-content {
+    position:absolute;
+    left: 250px;
+    top: 60px;
+    height: 100%;
+    width: 80%;
+    
+}
+.evaluation-survey {
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.survey-text {
+    margin-top: 5%;
+}
+.evaluation-saveButton {
+    float: left;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+.evaluation-submitButton {
+    float: right;
+    margin-right: 20%;
+    margin-top: 5%;
+}

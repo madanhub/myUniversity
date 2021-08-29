@@ -1,0 +1,45 @@
+.profileContent { 
+    position:absolute;
+    left: 600px;
+    top:300px;
+}
+.row{
+    display: flex;
+    
+}
+.column{
+    display: inline;
+    margin-right: 1rem;
+}
+.overlay{ 
+    height:800px;
+    width: 100%;
+    position: relative;
+
+    /*background-image: url("F:\WEBDEVELOPMENT5709\Projectfinal\Group_17\client\src\component\Images\uni2.jpg");*/
+
+    background-repeat: no-repeat;
+    background-size:cover;
+    object-fit: fill;
+    filter: brightness(90%); 
+    opacity: 0.5;
+
+}
+.button-content {
+    background-color: #000000;
+    color: #FFFFFF;
+    float: right;
+    padding: 10px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+  }
+  .button-detail{
+   
+        transition-duration: 0.4s;
+         
+  }
+  .button-detail:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }

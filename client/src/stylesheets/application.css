@@ -1,0 +1,52 @@
+/*Author - Sowmya Busanagari*/
+body{
+    color: #6c757d;
+    background-color: #f5f6f8;
+}
+h1 {
+    color: #000;
+    text-align: center;
+}
+.menu {
+    background-color: #ecae5c;
+    height: 100%;
+    width: 20%;
+    float: left;
+    position: absolute;
+    text-align: center;
+    font-size: large;
+    font-style: italic;
+    font-weight: bold;
+    border: 1px;
+}
+.formBasicInput{
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+    margin-left: -10px;
+}
+.content-application {
+    background-color: #f5f6f8;
+    height: 100%;
+    width: 80%;
+    float: right;
+    top:60px;
+  left:250px;
+    
+}
+.survey-application {
+    margin-top: 5%;
+    margin-left: 50px;
+}
+.cancelButton {
+    float: left;
+    margin-left: 1%;
+    margin-top: 5%;
+    background-color: red;
+}
+.applyButton {
+    float: right;
+    margin-right: 20%;
+    margin-top: 2%;
+    background-color: green;
+}

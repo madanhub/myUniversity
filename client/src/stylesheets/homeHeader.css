@@ -1,0 +1,27 @@
+/* Author - Sri Sai Bhargav Nuthakki */
+.homeLogo{
+    height :60px;
+    width :60px;
+    object-fit:fill;
+    padding: 5px;
+    }
+
+.LoginNavbar{
+    display: inline; 
+}
+.NavBarDiv{
+    background-color: black;
+    height:60px;
+}
+
+.LoginNavbar a{
+    float:right;
+    text-decoration: none;
+    padding:20px 20px 20px 20px;
+    color: white;
+    
+}
+
+.LoginNavbar a:hover{
+    color:rgb(255,255,255);
+}

@@ -1,0 +1,62 @@
+/* Author -Sri Sai Bhargav Nuthakki */
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+
+
+.updateProfileTable{
+    position: absolute;
+    top: 25%;
+    right: 25%;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    height: 350px;
+    width:50%;
+    background-color: transparent;
+   
+}
+
+#updateProfileTableName{
+    position: absolute;
+    top: 15%;
+    left:45%;
+    /* transform: translateX(-50%,-50%); */
+    margin-bottom: 20px;
+    color: black;
+    font-size: 35px;
+    font-weight: 500;
+    padding-bottom: 20px;
+    text-shadow: 2px 2px black;
+      
+  
+}
+
+#updateProfileSubmit{
+    background-color:black ;
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    background: transparent;
+    border: 2px solid #000000; 
+    cursor: pointer;
+    margin-top: 50px;
+    margin-left: 370px;
+    background-color:black ;
+    color: white;
+    font-size: 20px;
+    padding: 6px;
+    border-radius: 7px;
+}
+
+#feildname{
+    border: none;
+}
+
+#feildvalue{
+    border: none;
+}
